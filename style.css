@@ -3,7 +3,7 @@ body {
     font: 16px Arial, Helvetica, sans-serif;
 }
 
-#principal {
+#principal { /* os hashtags é para mudar toda a div, seja ela imagem definir tamanho ou um texto por inteiro, depende do que irá fazer */
     width: 900px;
 }
 
@@ -17,7 +17,7 @@ body {
     padding: 10px; /* espaçamento entre as as letras e paragrafos */
 }
 
-a {
+a { /* o a é para os links, definir um estilo para o link */
     color: #4b566a;
     text-decoration: none; /* remover o underline no link */
     font-weight: bold;
@@ -25,3 +25,20 @@ a {
     padding: 5px; /* espaçamento entre os links do home, contato...*/
 }
 
+.centralizar { 
+    text-align: center;
+}  /* o ponto .centralizar é uma classe que deve ser colocada no h4 pois você quer ajustar o texto 
+ou simplesmente usar o 
+#rodape {
+    text-align: center;
+}
+*/
+
+.img-campanha {  /* quando tem uma class é . (ponto) que vc quer definir apenas uma imagem o id é o conteudo todo */
+    border: 10px solid #c3c3ae;
+}
+
+h1 { /* definir todo o h1 que tem no site */
+    color: #828271;
+    font-size: 1.2em; /* tamanho da font em 'em' */
+}
